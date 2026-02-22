@@ -22,23 +22,23 @@ export const properties: Property[] = [
     completedDate: "2025-06-10",
     photos: [
       {
-        src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
-        alt: "42 Sedgwick Road front exterior",
+        src: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop",
+        alt: "42 Sedgwick Road front exterior — new colonial",
         category: "After",
       },
       {
-        src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
-        alt: "42 Sedgwick Road kitchen",
+        src: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
+        alt: "42 Sedgwick Road kitchen with quartz countertops",
         category: "After",
       },
       {
-        src: "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800&h=600&fit=crop",
-        alt: "42 Sedgwick Road living room",
+        src: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
+        alt: "42 Sedgwick Road open-concept living room",
         category: "After",
       },
       {
-        src: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=600&fit=crop",
-        alt: "Original lot before construction",
+        src: "https://images.unsplash.com/photo-1590725121839-892b458a74fe?w=800&h=600&fit=crop",
+        alt: "Empty lot before construction began",
         category: "Before",
       },
       {
@@ -82,8 +82,8 @@ export const properties: Property[] = [
     completedDate: "2025-07-20",
     photos: [
       {
-        src: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&h=600&fit=crop",
-        alt: "88 Fern Street front exterior",
+        src: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&h=600&fit=crop",
+        alt: "88 Fern Street front exterior after renovation",
         category: "After",
       },
       {
@@ -92,13 +92,13 @@ export const properties: Property[] = [
         category: "After",
       },
       {
-        src: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&h=600&fit=crop",
-        alt: "88 Fern Street living room",
+        src: "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800&h=600&fit=crop",
+        alt: "88 Fern Street living room with hardwood floors",
         category: "After",
       },
       {
-        src: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&h=600&fit=crop",
-        alt: "Original house before renovation",
+        src: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?w=800&h=600&fit=crop",
+        alt: "Original Cape Cod before renovation",
         category: "Before",
       },
     ],
@@ -137,17 +137,17 @@ export const properties: Property[] = [
     expectedCompletion: "2026-10-30",
     photos: [
       {
-        src: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+        src: "https://images.unsplash.com/photo-1575517111478-7f6afd0973db?w=800&h=600&fit=crop",
         alt: "15 Bretton Road framing in progress",
         category: "During",
       },
       {
-        src: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&h=600&fit=crop",
-        alt: "Original property before addition",
+        src: "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=800&h=600&fit=crop",
+        alt: "Original colonial before addition",
         category: "Before",
       },
       {
-        src: "https://images.unsplash.com/photo-1621155346337-1d19476ba7d1?w=800&h=600&fit=crop",
+        src: "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=800&h=600&fit=crop",
         alt: "Foundation work for addition",
         category: "During",
       },
@@ -186,13 +186,13 @@ export const properties: Property[] = [
     expectedCompletion: "2026-04-01",
     photos: [
       {
-        src: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&h=600&fit=crop",
+        src: "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800&h=600&fit=crop",
         alt: "200 North Main Street before renovation",
         category: "Before",
       },
       {
-        src: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
-        alt: "Demolition and rough-in phase",
+        src: "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5?w=800&h=600&fit=crop",
+        alt: "Gut renovation in progress — rough-in phase",
         category: "During",
       },
     ],
@@ -232,17 +232,17 @@ export const properties: Property[] = [
     completedDate: "2025-01-28",
     photos: [
       {
-        src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+        src: "https://images.unsplash.com/photo-1598228723793-52759bba239c?w=800&h=600&fit=crop",
         alt: "7 Whiting Lane completed exterior",
         category: "After",
       },
       {
-        src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+        src: "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&h=600&fit=crop",
         alt: "7 Whiting Lane renovated kitchen",
         category: "After",
       },
       {
-        src: "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&h=600&fit=crop",
+        src: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&h=600&fit=crop",
         alt: "Original ranch before renovation",
         category: "Before",
       },

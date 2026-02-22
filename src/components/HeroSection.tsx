@@ -5,8 +5,8 @@ export function HeroSection() {
   return (
     <section className="relative h-[70vh] min-h-[500px] flex items-center">
       <Image
-        src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&h=900&fit=crop"
-        alt="Beautiful custom-built home in West Hartford"
+        src="https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1600&h=900&fit=crop"
+        alt="Classic colonial home in a New England neighborhood"
         fill
         priority
         className="object-cover"

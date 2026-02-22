@@ -3,19 +3,43 @@
 import { useState, FormEvent } from "react";
 import { properties } from "@/data/properties";
 
+const FORMSPREE_ID = process.env.NEXT_PUBLIC_FORMSPREE_ID;
+
 export function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
+  const [error, setError] = useState("");
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSending(true);
+    setError("");
 
-    // Simulate form submission (replace with Formspree later)
-    await new Promise((resolve) => setTimeout(resolve, 800));
+    if (!FORMSPREE_ID) {
+      await new Promise((resolve) => setTimeout(resolve, 600));
+      setSending(false);
+      setSubmitted(true);
+      return;
+    }
+
+    try {
+      const data = new FormData(e.currentTarget);
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method: "POST",
+        body: data,
+        headers: { Accept: "application/json" },
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setError("Something went wrong. Please try again.");
+      }
+    } catch {
+      setError("Something went wrong. Please try again.");
+    }
 
     setSending(false);
-    setSubmitted(true);
   }
 
   if (submitted) {
@@ -116,6 +140,8 @@ export function ContactForm() {
           className="mt-1 w-full rounded-md border border-gray-200 px-4 py-2.5 text-sm focus:border-accent focus:ring-1 focus:ring-accent focus:outline-none"
         />
       </div>
+
+      {error && <p className="text-sm text-red-600">{error}</p>}
 
       <button
         type="submit"

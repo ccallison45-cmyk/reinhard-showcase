@@ -13,8 +13,8 @@ export function AboutSection() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="relative h-80 overflow-hidden rounded-lg lg:h-[450px]">
             <Image
-              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop"
-              alt="Quality craftsmanship in a renovated kitchen"
+              src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=800&h=600&fit=crop"
+              alt="Charming renovated home in West Hartford"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
